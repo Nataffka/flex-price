@@ -43,7 +43,7 @@ body{
     font-size: 40px;
     line-height: 30px;
     text-align: center;
-    margin: 0px 0px 80px 0px;
+    margin: 0px 0px 40px 0px;
 }
 
 .vertical-price__body {
@@ -53,37 +53,23 @@ body{
 
 .vertical-price__row {
     display: flex;
-    margin: 0px -22.5px;
 }
 .vertical-price__column {
-    padding: 0px 22.5px;
+    padding: 0 2%;
     flex:  0 1 33.333%;
     display: flex;
 }
 
-.center {
-    transform: scale(1.2);
-    padding: 0;
-}
 
 .vertical-price__item {
     background-color:#0099ba;
     color: #fff;
     border-radius: 10px;
     border: 1px solid #0099ba;
-    padding: 0px 0px 20px 0px;
+    padding: 0px 0px 2% 0px;
     display: flex;
     flex-direction: column;
     width: 100%;
-}
-
-.left {
-    padding-right: 20px;
-}
-
-.right {
-    
-    padding-left: 20px;
 }
 
 .vertical-price__subtitle {
@@ -120,7 +106,7 @@ body{
     line-height: 40px;
     text-align: center;
     border-radius: 10px;
-    margin: 0px 20px;
+    margin: 0 5% 2% 5%;
     background-color: #fff;
     color: #0099ba;
     font-size: 24px;
